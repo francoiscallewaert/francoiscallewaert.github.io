@@ -36,7 +36,7 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .bg-primary {
-  background-color: #F05F40 !important; }
+  background-color: #2ECC71 !important; }
 
 .bg-dark {
   background-color: #212529 !important; }
@@ -45,7 +45,8 @@ h6 {
   color: rgba(255, 255, 255, 0.7); }
 
 section {
-  padding: 8rem 0; }
+  padding: 4rem 0; 
+}
 
 .section-heading {
   margin-top: 0; }
@@ -81,10 +82,11 @@ body {
   #mainNav .navbar-brand {
     font-weight: 700;
     text-transform: uppercase;
-    color: #F05F40;
+    color: #FFFFFF;
+    background-color: #CC3333
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
     #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #f05f40; }
+      color: blue; }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
     font-size: .9rem;
@@ -106,14 +108,14 @@ body {
       border-color: transparent;
       background-color: transparent; }
       #mainNav .navbar-brand {
-        color: rgba(255, 255, 255, 0.7); }
+        color: blue; }
         #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
           color: #fff; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link {
         padding: 0.5rem 1rem; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-        color: rgba(255, 255, 255, 0.7); }
+        color: blue; }
         #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
         #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
           color: #fff; }
@@ -134,14 +136,14 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/blue_sky.jpg");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
   header.masthead hr {
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px; }
   header.masthead h1 {
     font-size: 2rem; }
@@ -149,7 +151,7 @@ header.masthead {
     font-weight: 300; }
   @media (min-width: 768px) {
     header.masthead p {
-      font-size: 1.15rem; } }
+      font-size: 1.5rem; } }
   @media (min-width: 992px) {
     header.masthead {
       height: 100vh;
@@ -160,7 +162,7 @@ header.masthead {
         font-size: 3rem; } }
   @media (min-width: 1200px) {
     header.masthead h1 {
-      font-size: 4rem; } }
+      font-size: 5rem; } }
 
 .service-box {
   max-width: 400px; }
